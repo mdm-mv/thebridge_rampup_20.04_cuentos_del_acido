@@ -1,0 +1,165 @@
+h1{
+    text-align: center;
+    border-bottom: solid black 4px;
+
+}
+
+div{
+    text-align: center;
+    padding: 120px;
+    border-bottom: solid black 3px;
+}
+
+@keyframes cuento1 {
+    0% {background-color: cornflowerblue;}
+    25% {background-color: rgb(255, 168, 197);}
+    50% {background-color:palegreen;}
+    100% {background-color: cornflowerblue;}
+}
+
+@keyframes cuento2 {
+    0% {background-color:palegreen;}
+    25% {background-color:palegoldenrod;}
+    50% { background-color: rgb(255, 168, 197);}
+    100% {background-color:palegreen;}
+}
+
+@keyframes cuento3 {
+    0% {background-color:palegoldenrod;}
+    25% {background-color: rgb(255, 168, 197);}
+    50% {background-color: cornflowerblue;}
+    100% {background-color:palegoldenrod;}
+}
+
+@keyframes cuento4 {
+    0% {background-color: rgb(255, 168, 197);}
+    25% {background-color:palegoldenrod;}
+    50% {background-color:palegreen;}
+    100% {background-color: rgb(255, 168, 197);}
+}
+
+#cuento1 {
+    background-color: cornflowerblue;
+    animation-name: cuento1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+#principe:hover{
+    transform: translate(100px);
+    transition-duration: 2s;
+    transition-timing-function: linear;
+}
+
+#espada {
+    transform: rotate(-45deg);
+}
+
+#espada:hover {
+    transform: rotate(22.5deg);
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    z-index: 2;
+}
+
+#dragon:hover {
+    transform: scale(1.5);
+    transition-duration: 2s;
+    transition-timing-function: linear;
+}
+
+#cuento2 {
+    background-color:palegreen;
+    animation-name: cuento2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+#bruja:hover {
+    transform: matrix(1, 0.1, 0.2, 1, -150, 0);
+    transition-duration: 2s;
+    transition-timing-function: linear;
+}
+
+#manzana {
+    transform: rotate(-45deg);
+}
+
+#manzana:hover {
+    transform: rotate(22.5deg);
+    transition-duration: 2s;
+    transition-timing-function: linear;
+}
+
+#princesa {
+    transform: translate(50px);
+}
+
+#princesa:hover{
+    transform: translate(200px);
+    transition-duration: 2s;
+    transition-timing-function: linear;
+}
+
+#cuento3 {
+    background-color:palegoldenrod;
+    animation-name: cuento3;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+#rana {
+    transform: translate(-200px);
+    margin-left: 150px;
+}
+
+#rana:hover{
+    transform: translate(100px);
+    transition-duration: 2s;
+    transition-timing-function: linear;
+}
+
+#lampara {
+    transform: rotate(-45deg);
+    margin-left: 100px;
+}
+
+#lampara:hover {
+    transform: rotate(22.5deg);
+    transition-duration: 2s;
+    transition-timing-function: linear;
+}
+
+#nomo:hover {
+    transform: rotate(360deg);
+    transition-duration: 3s;
+    transition-timing-function: linear;
+}
+
+#cuento4 {
+    background-color: rgb(255, 168, 197);
+    animation-name: cuento4;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+#castillo {
+    transform: rotate(-45deg);
+    margin-left: 100px;
+}
+
+#castillo:hover {
+    transform: rotate(22.5deg);
+    transition-duration: 2s;
+    transition-timing-function: linear;
+}
+
+#madrina {
+    transform: translate(-200px);
+}
+
+#madrina:hover{
+    transform: translate(100px);
+    transition-duration: 2s;
+    transition-timing-function: linear;
+}
